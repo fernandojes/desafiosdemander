@@ -10,16 +10,14 @@ def conversor_int_rom(inteiro):
     i = 0
 
     while inteiro > 0:
-        for _ in range(inteiro // numeros[i]):
-            resultado += romanos[i]
-            inteiro -= numeros[i]
-
-        i += 1 
-    return resultado 
-conversao = int(input("Digite um número inteiro: "))
-print(conversor_int_rom(conversao)) 
+    
 
 
+# def para criar uma função personalizada para a conversão.
+# duas listas: uma com os numeros romanos e outra com os inteiros em algarismos arábicos 
+# não entendi mt bem o while??
+
+# 'resultado' cria uma string vazia pra por o resultado??? 
 
 
 
